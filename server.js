@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.post('/scrape', async (req, res) => {
   const { segmento, cidade, estado } = req.body;
-  const urlDePesquisa = "https://my-puppeteer-backend.onrender.com";
+  const urlDePesquisa = "https://www.google.com.br/maps";
   const results = [];
 
   // Função para atualizar o resultado no frontend
